@@ -27,3 +27,6 @@ jobs:
       run: |
         # Enable later modules as their assignments are implemented.
         python -m pytest tests -x -m "task0_1 or task0_2 or task0_3 or task0_4"
+    - name: Test Module 1 with pytest
+      run: |
+        python -m pytest tests -x -m "task1_1 or task1_2 or task1_3 or task1_4"
