@@ -57,6 +57,7 @@ coverage.xml
 
 # Django stuff:
 *.log
+!/artifacts/task1_5/logs/*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
